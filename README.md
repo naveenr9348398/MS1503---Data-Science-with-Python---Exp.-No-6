@@ -155,6 +155,8 @@ Positive Reviews: 6
 Negative Reviews: 3
 Neutral Reviews: 1
 ```
+![Sentiment Analysis Graph](exp6.png)
+
 
 ## Result
 The program successfully loads a list of sample product reviews, applies `TextBlob` sentiment polarity scoring to classify each review's emotional tone, prints summary counts, and visualizes the overall distribution with a Matplotlib bar chart.
