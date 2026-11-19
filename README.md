@@ -93,19 +93,17 @@ print("Neutral Reviews:", neutral)
 
 #Step 5: Plot Sentiment Distribution
 
-categories = ["Positive", "Negative", "Neutral"]
-counts = [positive, negative, neutral]
 
 plt.figure(figsize=(8, 5))
 
-plt.bar(categories, counts,
-        color=["green", "red", "blue"])
+plt.bar(categories, counts, color="#1f77b4")
 
-plt.title("Sentiment Distribution of Product Reviews")
+plt.title("Sentiment Analysis of Product Reviews")
 plt.xlabel("Sentiment Categories")
 plt.ylabel("Number of Reviews")
 
 plt.show()
+
 ```
 
 ## Output
